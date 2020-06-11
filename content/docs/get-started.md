@@ -22,7 +22,7 @@ To process your data in real time, we need your preferences:
 
 You can always change settings later in [Profile Settings](TODO).
 
-## 3. Import data to the Compayer
+## 3. Import data to Compayer
 
 To get started with analytics reports, you need to set up data source to import data to our data house.
 
