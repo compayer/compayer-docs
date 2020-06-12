@@ -32,9 +32,9 @@ jobs:
       script:
       - cd $TRAVIS_BUILD_DIR
       - hugo --environment staging
-      - mkdir $TRAVIS_BUILD_DIR/public/api
-      - cd $TRAVIS_BUILD_DIR/api-reference 
-      - hugo --environment staging && cp -r $TRAVIS_BUILD_DIR/api-reference/public/* ../public/api/
+#      - mkdir $TRAVIS_BUILD_DIR/public/api
+#      - cd $TRAVIS_BUILD_DIR/api-reference 
+#      - hugo --environment staging && cp -r $TRAVIS_BUILD_DIR/api-reference/public/* ../public/api/
       - echo "docs.stg.compayer.com" > ./public/CNAME
       deploy:
         - provider: pages
@@ -53,9 +53,9 @@ jobs:
       script:
       - cd $TRAVIS_BUILD_DIR
       - hugo --environment production
-      - mkdir $TRAVIS_BUILD_DIR/public/api
-      - cd $TRAVIS_BUILD_DIR/api-reference 
-      - hugo --environment production && cp -r $TRAVIS_BUILD_DIR/api-reference/public/* ../public/api/
+#      - mkdir $TRAVIS_BUILD_DIR/public/api
+#      - cd $TRAVIS_BUILD_DIR/api-reference 
+#      - hugo --environment production && cp -r $TRAVIS_BUILD_DIR/api-reference/public/* ../public/api/
       - echo "docs.compayer.com" > ./public/CNAME
       deploy:
         - provider: pages
