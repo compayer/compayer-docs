@@ -9,11 +9,12 @@ type: docs
 
 ## 1. Create your account
 
-Before start using the Compayer, [sign up and create a user account](https://analytics.tst.pay.super.com/).
+Before start using the Compayer, [sign up and create a user account](TODO).
 
 ## 2. Set up data preferences
 
 To process your data in real time, we need your preferences:
+
 - Time zone
 - Default currency
 - Date format
