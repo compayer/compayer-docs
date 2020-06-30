@@ -8,6 +8,7 @@ type: docs
 To start collecting data from your client:
 
 **Step 1.** Create or sign in to your Compayer account to get:
+
 - CLIENT_ID (the unique identifier for your client)
 - SECRET_KEY (the secret API key for your client)
 
