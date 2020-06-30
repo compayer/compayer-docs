@@ -17,8 +17,16 @@ Try out Compayer Portal and explore real datasets.
 
 **Features**
 
-- Tracking e-commerce payment options
-- Visualise your entire business on a single screen
+- Tracking e-commerce payment events about started, successful, failure or refunded transactions.
+- Visualise your entire business on a single screen in real-time.
+
+***
+
+## Next steps
+
+{{< hint info >}}
+[Get started with Compayer](/docs/get-started/) 
+{{< /hint >}}
 
 ***
 
