@@ -9,16 +9,27 @@ type: docs
 
 Compayer is an analytics service that tracks customer events in payment forms for financial and marketing reports.
 
+Our goal is to help our partners to save every cent in their pockets and improve payment processing for every case and territories.
+
+{{< figure src="/images/overview.png">}}
+
+Track e-commerce payment events about started, successful, failed or refunded transactions. Visualise your entire business on a single screen in real-time.
+
+Our customers confirm we helped to increase their revenues from 5 to 17%.
+
 Try out Compayer Portal and explore real datasets.
 
 {{< button href="TODO" >}}EXPLORE NOW{{< /button >}}
 
-{{< figure src="/images/overview.png">}}
+**Let us process your data in real time and provide you with invaluable insights.**
 
-**Features**
-
-- Tracking e-commerce payment events about started, successful, failure or refunded transactions.
-- Visualise your entire business on a single screen in real-time.
+{{< columns >}}
+We work for non-recurring businesses and got ton of insights for every user
+<--->
+We here to help you better control your business
+<--->
+Don’t spend hours in Excel or BI tools
+{{< /columns >}}
 
 ***
 
