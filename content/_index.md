@@ -19,7 +19,7 @@ Our customers confirm we helped to increase their revenues from 5 to 17%.
 
 Try out Compayer Portal and explore real datasets.
 
-{{< button href="TODO" >}}EXPLORE NOW{{< /button >}}
+{{< button href="https://demo.compayer.com/dashboard" >}}EXPLORE NOW{{< /button >}}
 
 **Let us process your data in real time and provide you with invaluable insights.**
 
