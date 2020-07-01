@@ -21,10 +21,10 @@ Try out Compayer Portal and explore real datasets.
 
 {{< button href="https://demo.compayer.com/dashboard" >}}EXPLORE NOW{{< /button >}}
 
-**Let us process your data in real time and provide you with invaluable insights.**
+**Let us process your data in real-time and provide you with invaluable insights.**
 
 {{< columns >}}
-We work for non-recurring businesses and got ton of insights for every user
+We work for non-recurring businesses and got a ton of insights for every user
 <--->
 We here to help you better control your business
 <--->
