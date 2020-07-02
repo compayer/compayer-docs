@@ -9,7 +9,7 @@ type: docs
 
 ## 1. Create your account
 
-Before start using the Compayer, [sign up and create a user account](TODO).
+Before start using the Compayer, sign up and create a user account.
 
 ## 2. Set up data preferences
 
@@ -21,7 +21,7 @@ Configure your preferences to process analytics data in real-time:
 
 {{< figure src="/images/preferences.png">}}
 
-You can always change settings later in [Profile Settings](TODO).
+You can always change settings later in Profile Settings.
 
 ## 3. Import data to Compayer
 
@@ -30,7 +30,7 @@ To get started with analytics reports, you need to set up a client to import tra
 {{< hint info >}}
 We support data from payment services: *Xsolla*, *Yandex.Money* and *PaySuper*.
 
-[Please let us know](TODO) if you need other payment systems, and we will add it asap.
+[Please let us know](https://calendly.com/schedule_talk_with_us/15min) if you need other payment systems, and we will add it asap.
 {{< /hint >}}
 
 You can use several ways to import data:
