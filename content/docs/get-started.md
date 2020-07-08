@@ -9,7 +9,7 @@ type: docs
 
 ## 1. Create your account
 
-Before start using the Compayer, [sign up and create a user account](https://compayer.com/).
+Before start using the Compayer, [sign up and create a user account](https://app.compayer.com/).
 
 ## 2. Set up data preferences
 
