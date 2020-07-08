@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Compayer Documentation</title>
+    <link>http://docs.compayer.com/docs/</link>
+    <description>Recent content in Docs on Compayer Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://docs.compayer.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>API Reference</title>
+      <link>http://docs.compayer.com/docs/api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.compayer.com/docs/api/</guid>
+      <description> API Reference </description>
+    </item>
+    
+    <item>
+      <title>Get started</title>
+      <link>http://docs.compayer.com/docs/get-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.compayer.com/docs/get-started/</guid>
+      <description>Get started 1. Create your account Before start using the Compayer, sign up and create a user account.
+2. Set up data preferences Configure your preferences to process analytics data in real-time:
+ Time zone Default currency Date format      You can always change settings later in Profile Settings.
+3. Import data to Compayer To get started with analytics reports, you need to set up a client to import transactions data to our data house.</description>
+    </item>
+    
+    <item>
+      <title>Integration</title>
+      <link>http://docs.compayer.com/docs/integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.compayer.com/docs/integration/</guid>
+      <description>Set up Compayer To start collecting data from your client:
+Step 1. Set up your client settings Create or sign in to your Compayer account to get:
+ CLIENT_ID (the unique identifier for your client) SECRET_KEY (the secret API key for your client)  Step 2. Send data to Compayer Follow the instruction to send events from your client to Compayer:
+Compayer PHP SDK library is designed to push stat messages to the Compayer analytics from the php-based projects.</description>
+    </item>
+    
+  </channel>
+</rss>
