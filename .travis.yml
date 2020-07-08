@@ -1,0 +1,71 @@
+os:
+- linux
+language: go
+go:
+- 1.13.x
+
+env:
+  global:
+  - GO111MODULE=on 
+
+sudo: required
+
+dist: bionic
+
+cache:
+  directories:
+  - $HOME/gopath/pkg/mod
+
+if: branch in (master, develop)
+
+before_install:
+#  - sudo snap install hugo --channel=extended
+  - git clone -b v0.59.1 https://github.com/gohugoio/hugo.git
+  - cd hugo
+  - go install --tags extended
+  - hugo env
+
+jobs:
+  include: 
+    - if: branch = develop
+      install: true
+      script:
+      - cd $TRAVIS_BUILD_DIR
+      - hugo --environment staging
+#      - mkdir $TRAVIS_BUILD_DIR/public/api
+#      - cd $TRAVIS_BUILD_DIR/api-reference 
+#      - hugo --environment staging && cp -r $TRAVIS_BUILD_DIR/api-reference/public/* ../public/api/
+      - echo "docs.stg.compayer.com" > ./public/CNAME
+      deploy:
+        - provider: pages
+          skip-cleanup: true
+          github-token: "$GITHUB_TOKEN"
+          keep-history: true
+          target-branch: master
+          verbose: true
+          repo: compayer/compayer-docs-stg
+          fqdn: docs.stg.compayer.com
+          local-dir: "./public"
+          on:
+            branch: develop
+    - if: branch = master
+      install: true
+      script:
+      - cd $TRAVIS_BUILD_DIR
+      - hugo --environment production
+#      - mkdir $TRAVIS_BUILD_DIR/public/api
+#      - cd $TRAVIS_BUILD_DIR/api-reference 
+#      - hugo --environment production && cp -r $TRAVIS_BUILD_DIR/api-reference/public/* ../public/api/
+      - echo "docs.compayer.com" > ./public/CNAME
+      deploy:
+        - provider: pages
+          skip-cleanup: true
+          github-token: "$GITHUB_TOKEN"
+          keep-history: true
+          target-branch: gh-pages
+          verbose: true
+          repo: compayer/compayer-docs
+          fqdn: docs.compayer.com
+          local-dir: "./public"
+          on:
+            branch: master

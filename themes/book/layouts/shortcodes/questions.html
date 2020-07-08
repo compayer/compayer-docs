@@ -1,0 +1,17 @@
+{{ "## Questions?" | markdownify }}
+
+<div class="book-columns flex flex-wrap">
+{{ range split $.Inner "-*-" }}
+<div class="flex-even markdown-inner">
+    {{ . | markdownify }}
+</div>
+{{ end }}
+</div>
+
+{{ "***" | markdownify }}
+
+{{ "## Not a developer?" | markdownify }}
+
+{{ "Our engineers will help you [integrate Compayer](/docs/integration/) into your existing e-commerce platform, a website or a game in the best possible way." | markdownify }}
+
+{{ "If you want something very special and crazy custom yet don't have a suitable programmer available nearby - [talk to us](https://calendly.com/schedule_talk_with_us/15min)! We won't let down a Compayer user. We will try to help you in every possible way. We can even hire a programmer for you!" | markdownify }}
